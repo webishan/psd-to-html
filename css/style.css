@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,600,600i,700,800,800i&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Playfair Display', serif;
+}
+/* font-family: 'Playfair Display', serif; */
+header{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    overflow: hidden;
+}
+.logo{
+    width: 20%;
+    float: left;
+}
+.menu{
+    width: 50%;
+    float: right;
+}
+.menu ul{
+    list-style: none;
+    float: right;
+}
+.menu ul li{
+    float: left;
+}
+.menu ul li a{
+    color: #626262;
+    text-decoration: none;
+    margin-left: 70px;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: 'Playfair Display', serif;
+}
+.banner{
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+}
+.banner img{
+    width: 100%;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+    
+.content span{
+    font-size: 16px;
+    color: #626262;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block;
+}
+.content h1{
+    color: #626262;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.content p{
+    color: #626262;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.life_style{
+    width: 80%;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.lifestyle-one{
+    width: 45%;
+    float: left;
+}
+.lifestyle-two{
+    width: 45%;
+    float: right;
+}
+.life_style_img img{
+    width: 100%;
+}
+
+.life_style h1{
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+.life_style p{
+    color: #626262;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.life_style span{
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    
+    margin-top: 30px;
+    display: block;
+}
+.photodiary{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.photodiary-one{
+    width: 45%;
+    float: left;
+}
+.photodiary_img img{
+    width: 100%;
+}
+.photodiary-two{
+    width: 45%;
+    float: right;
+}
+.photodiary span{
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
+}
+.photodiary h1{
+    color: #626262;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.photodiary p{
+    color: #626262;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.newsletter{
+    height: 280px;
+    background-color: #f0f0f0;
+}
+.newsletter_content{
+    width: 30%;
+    margin: auto;
+    padding-top: 50px;
+    position: relative;
+}
+.newsletter_content input{
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid black;
+    width: 100%;
+}
+.newsletter_content h1{
+    margin-bottom: 50px;
+    color: #333333;
+    font-size: 30px;
+}
+/* .demo{
+    background: red;
+    border: 1px solid;
+    margin-top: 40px;
+    padding: 50px 30px 100px 20px ;
+} */
+.send_icon{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.lifestyle_two{
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+.lifestyle-three{
+    width: 45%;
+    float: left;
+}
+.lifestyle-four{
+    width: 45%;
+    float: right;
+}
+.life_style_img img{
+    width: 100%;
+}
+.lifestyle_two span{
+    font-size: 16px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+    margin-top: 30px;
+    display: block;
+}
+.lifestyle_two h1{
+    color: #626262;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.lifestyle_two p{
+    color: #626262;
+    line-height: 1.6;
+    margin-bottom: 50px;
+}
+.btn{
+    width: 10%;
+    margin: auto;
+    height: 250px;
+}
+.btn input{
+    padding: 20px;
+    background: transparent;
+    border: none;
+    border: 1px solid;
+    color: #626262;
+    font-size: 15px;
+    font-family: 'Playfair Display', serif;
+}
+footer{
+    height: 80px;
+    background-color: #f0f0f0;
+}
+.footer_content{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px;
+}
+.terms{
+    width: 30%;
+    float: left;
+}
+.social_follow{
+    width: 40%;
+    float: right;
+}
+.terms ul{
+    list-style: none;
+}
+.terms ul li{
+    float: left;
+}
+.terms ul li a{
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+}
+.social_follow ul{
+    list-style: none;
+    float: right;
+}
+.social_follow ul li{
+    float: left;
+}
+.social_follow ul li a{
+    margin: 10px;
+    color: #000000;
+    text-decoration: none;
+} 
